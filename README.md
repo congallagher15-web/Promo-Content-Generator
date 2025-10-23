@@ -1,13 +1,12 @@
 
-# 🎰 Promo Content Generator — MVP (Embedded)
+# 🎰 Promo Content Generator - MVP (Embedded + Translate)
 
-**Purpose:** Management-ready demo that shows the exact end-to-end flow:
-- Upload ANY promo brief (dummy input).
-- Instantly receive the **pre-approved Word document** (word-for-word, brand-perfect).
+**Demo flow:**  
+1) Upload ANY promo brief (dummy input).  
+2) Download the **pre-approved Word doc** (embedded, word-for-word).  
+3) Optional: click **Translate** to get an additional Word doc in Italian, Spanish, or Portuguese.
 
-This MVP intentionally returns the embedded, signed-off document to guarantee the demo output is identical to your approved template.
-
-## Run locally
+## Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
