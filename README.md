@@ -1,13 +1,9 @@
 
-# 🎰 Promo Content Generator - MVP (Embedded + Translate)
+# Promo Content Generator - MVP (Embedded EN + Spanish)
 
-**Demo flow:**  
-1) Upload ANY promo brief (dummy input).  
-2) Download the **pre-approved Word doc** (embedded, word-for-word).  
-3) Optional: click **Translate** to get an additional Word doc in Italian, Spanish, or Portuguese.
+**Demo flow**
+1. Upload any promo brief (dummy input).
+2. Download the approved English Word doc (embedded).
+3. Click **Translate → Spanish (ES)** to download the approved Spanish Word doc (embedded).
 
-## Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+No APIs required. 100% deterministic output for management demo.
