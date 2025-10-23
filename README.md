@@ -1,5 +1,5 @@
 
-# Promo Content Generator - MVP (Embedded EN + Spanish)
+# Promo Content Generator - MVP (v3.1)
 
 **Demo flow**
 1. Upload any promo brief (dummy input).

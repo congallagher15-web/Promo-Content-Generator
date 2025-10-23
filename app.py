@@ -4,7 +4,6 @@ from pathlib import Path
 
 st.set_page_config(page_title="Promo Content Generator - MVP", page_icon="🎰", layout="centered")
 
-st.image("assets/logo.png", width=280)
 st.title("Promo Content Generator - MVP")
 st.caption("Demo: upload ANY promo brief → receive promo content as a .docx.")
 
@@ -22,9 +21,9 @@ spa_bytes = spa_path.read_bytes()
 if uploaded is not None:
     st.success("✅ Brief received. Delivering brand-approved content (embedded).")
     st.download_button(
-        label="⬇️ Download: Pragmatic Play Prize Draw (Approved, EN).docx",
+        label="⬇️ Download: Pragmatic Play Prize Draw (EN).docx",
         data=eng_bytes,
-        file_name="Pragmatic_Play_Prize_Draw_Approved_EN.docx",
+        file_name="Pragmatic Play Prize Draw.docx",
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         use_container_width=True,
     )
@@ -37,7 +36,7 @@ if uploaded is not None:
         st.download_button(
             label="⬇️ Download: Sorteo de Premios Pragmatic (ES).docx",
             data=spa_bytes,
-            file_name="Pragmatic_Play_Sorteo_de_Premios_ES.docx",
+            file_name="Sorteo de Premios Pragmatic.docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
             use_container_width=True,
         )
